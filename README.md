@@ -60,10 +60,10 @@ Go back to the `NPB3.4-MPI` dierctory
   make <Application Name> CLASS=<Problem Size>
   ```
 
-Simple configurations were created, `config/make.def` and `config/suite.def`
+Simple configurations were created in this repository, `config/make.def` and `config/suite.def`
 
 # Execution on FLOW
-Job scripts are in `run`
+Job scripts are in `run` of this repository
 - Run all tests
   ```
   pjsub job_run_all.sh
